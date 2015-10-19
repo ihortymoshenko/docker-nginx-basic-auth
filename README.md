@@ -27,4 +27,5 @@ This repository contains **Dockerfile** of [nginx](http://nginx.org/)-basic-auth
     -e PORT="9200" \
     -e USER="elasticsearch" \
     -e PASS="elasticsearch" \
+    --link elasticsearch:elasticsearch \
     igortimoshenko/docker-nginx-basic-auth
